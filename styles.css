@@ -1,0 +1,31 @@
+
+
+:root {
+--white: hsl(0, 0%, 100%);
+--light-gray: hsl(212, 45%, 89%);
+--grayish-blue: hsl(220, 15%, 55%);
+--dark-blue: hsl(218, 44%, 22%);
+}
+
+/* RESET STYLE */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TEMPORARY STYLES TO BE REMOVED AT END OF PROJECT */
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+main {
+    display: flex;
+    width: 375px;
+    flex-direction: column;
+    background-color: var(--white);
+}
