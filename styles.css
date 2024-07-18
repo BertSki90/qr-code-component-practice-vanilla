@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 :root {
 --white: hsl(0, 0%, 100%);
@@ -17,15 +17,48 @@
     box-sizing: border-box;
 }
 
-/* TEMPORARY STYLES TO BE REMOVED AT END OF PROJECT */
-
 body {
-    background-color: lightgoldenrodyellow;
+    background-color: var(--light-gray);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+/* ---CARD--- */
 
 main {
     display: flex;
-    width: 375px;
+    width: 370px;
     flex-direction: column;
     background-color: var(--white);
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    padding: 25px;
+}
+
+img {
+    height: 320px;
+    width: 320px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1, p {
+    font-family:  Outfit, Arial, Helvetica, sans-serif;
+    margin: 10px 10px;
+}
+
+h1 {
+    font-size: 26px;
+    weight: 700;
+    color: var(--dark-blue);
+}
+
+p {
+    font-size: 15px;
+    weight: 400;
+    padding: 0 20px;
+    color: var(--grayish-blue);
 }

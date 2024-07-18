@@ -48,7 +48,11 @@ CSS
 
 3. In this order style the card, image, heading, and paragraph.
 
-4. To be able to see the changes during the styling of the card I changed to background color temporarly. This way I can see the card. Another choice I had would have been to put a border around the card.
+4. To be able to see the changes during the styling of the card I changed to background color first. This way I can see the card. Another choice would have been to put a border around the card.
+
+5. Needed to center the card on the screen horizontlly and vertically.
+
+6. Apply styling to img, h1, and p. I played with the units until for spacing until it looked like the design.
 
 ### Built with
 
