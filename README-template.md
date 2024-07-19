@@ -42,7 +42,7 @@ HTML
 
 1. Set up a structure for a card to put all information inside.
 
-2. Inside the card starting from the top insert QR image, heading, and paragraph.
+2. Inside the card starting from the top insert image, heading, and paragraph.
 
 CSS
 
@@ -52,70 +52,65 @@ CSS
 
 5. Needed to center the card on the screen horizontlly and vertically.
 
-6. Apply styling to img, h1, and p. I played with the units until for spacing until it looked like the design.
+6. Apply styling to main, img, h1, and p. I played with the units until the spacing looked like the design.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I needed to research on how to center the car horizontally and vertically on the screen. Below is the code that I used for centering.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
 ```
+body {
+    background-color: var(--light-gray);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
+/* ---CARD--- */
+
+main {
+    display: flex;
+    width: 370px;
+    flex-direction: column;
+    background-color: var(--white);
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    padding: 25px;
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
+I read that when rounding corners of an element inside another element with rounded corners to make it look more uniform half the border radius for the inside element.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+HTML refreshed my ability to link the CSS file and set up the structure so it would work well with the CSS styles.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+CSS was a great refresher on setting up and calling on root values. Importing fonts as well.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I am a newbie. I want to continue to improve my code. This project taught me to focus on mobile first design and centering elements.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [freeCodeCamp](https://www.freecodecamp.org/news/css-vertical-align-how-to-center-a-div-text-or-an-image-example-code/) - This helped me with centering elements. I really liked this pattern and will use it going forward.
+- [W3Schools](https://www.w3schools.com/css/css_align.asp) - This is an amazing article which helped me with centering elements. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/BertSki90)
+- Twitter - [@BertSki90](https://twitter.com/BertSki90)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thank you to freeCodeCamp. It has introduced me to the coding world.
