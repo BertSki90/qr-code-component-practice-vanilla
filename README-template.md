@@ -103,7 +103,7 @@ I am a newbie. I want to continue to improve my code. This project taught me to 
 
 ## Author
 
-- Website - [Albert Ski](https://bertski90.github.io/qr-code-component-practice-vanilla/)
+- Website - [Albert Ski](https://bertski90.github.io)
 - Frontend Mentor - [@BertSki90](https://www.frontendmentor.io/profile/BertSki90)
 - Twitter - [@BertSki90](https://twitter.com/BertSki90)
 
