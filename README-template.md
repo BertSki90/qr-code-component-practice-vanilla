@@ -15,9 +15,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+
+I built a QR component with basic HTML and JavaScript.
 
 ### Screenshot
 
@@ -34,7 +34,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://bertski90.github.io/qr-code-component-practice-vanilla/)
 
 ## My process
 
@@ -48,7 +48,7 @@ CSS
 
 3. In this order style the card, image, heading, and paragraph.
 
-4. To be able to see the changes during the styling of the card I changed to background color first. This way I can see the card. Another choice would have been to put a border around the card.
+4. To be able to see the changes during the styling of the card I changed to background color first. This way I can see the card. Another way would have been to put a border around the card.
 
 5. Needed to center the card on the screen horizontlly and vertically.
 
@@ -63,7 +63,7 @@ CSS
 
 ### What I learned
 
-I needed to research on how to center the car horizontally and vertically on the screen. Below is the code that I used for centering.
+I needed to research on how to center the card horizontally and vertically on the screen. Below is the code that I used for centering.
 
 ```
 body {
@@ -90,9 +90,7 @@ main {
 
 I read that when rounding corners of an element inside another element with rounded corners to make it look more uniform half the border radius for the inside element.
 
-HTML refreshed my ability to link the CSS file and set up the structure so it would work well with the CSS styles.
-
-CSS was a great refresher on setting up and calling on root values. Importing fonts as well.
+In the CSS setting up and calling on root values as well as importing fonts.
 
 ### Continued development
 
@@ -105,11 +103,9 @@ I am a newbie. I want to continue to improve my code. This project taught me to 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/BertSki90)
+- Website - [Albert Ski](https://bertski90.github.io/qr-code-component-practice-vanilla/)
+- Frontend Mentor - [@BertSki90](https://www.frontendmentor.io/profile/BertSki90)
 - Twitter - [@BertSki90](https://twitter.com/BertSki90)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
